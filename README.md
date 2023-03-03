@@ -1,0 +1,12 @@
+**Strings are array of characters.** The length of a string is the total character count in the string plus the `\0` character
+
+`sizeof` tells you how many bytes of memory something takes. You can check either data types or pieces of data with it.
+
+```c
+sizeof(int);
+```
+
+```c
+sizeof("Fractal Design");
+```
+
