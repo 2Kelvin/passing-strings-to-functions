@@ -10,3 +10,6 @@ sizeof(int);
 sizeof("Fractal Design");
 ```
 
+The `sizeof(aPointer)` returns 4 bytes for 32 bit systems & 8 bytes for 64 bit systems
+
+`An array variable is by itself used as a pointer variable.` The address of the array is the address of the first character in the array.

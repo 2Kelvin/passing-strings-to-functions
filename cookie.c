@@ -2,8 +2,12 @@
 
 int main() {
     char quote[] = "Cookies are the sweetest!";
+    printf("The quote string is stored at %p\n", quote);
     fortuneCookie(quote);
-    
+
+    char s[] = "How big is it?";
+    printf("the size is %i\n", sizeof(s));
+
     return 0;
 }
 
